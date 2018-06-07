@@ -18,7 +18,7 @@
       
       <guid>https://mkz.io/posts/hello-world/</guid>
       <description>I should probably do something here&amp;hellip;
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37  package main import ( &amp;#34;context&amp;#34; &amp;#34;runtime&amp;#34; stub &amp;#34;github.com/jmckind/jira-operator/pkg/stub&amp;#34; &amp;#34;github.com/jmckind/jira-operator/version&amp;#34; 	sdk &amp;#34;github.com/operator-framework/operator-sdk/pkg/sdk&amp;#34; k8sutil &amp;#34;github.com/operator-framework/operator-sdk/pkg/util/k8sutil&amp;#34; sdkVersion &amp;#34;github.com/operator-framework/operator-sdk/version&amp;#34; &amp;#34;github.com/sirupsen/logrus&amp;#34; ) func printVersion() { logrus.Infof(&amp;#34;Go Version: %s&amp;#34;, runtime.Version()) 	logrus.</description>
+1 2 3 4 5 6 7 8 9 10  package main import ( &amp;#34;fmt&amp;#34; ) func main() { msg = &amp;#34;World&amp;#34; 	fmt.Printf(&amp;#34;Hello %s&amp;#34;, msg) }   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</description>
     </item>
     
   </channel>
